@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+ background-image:url(mypicwebsite.jpg);
+ background-size: cover;
+ background-attachment: fixed;
+  /* margin regelt anstände */
+   }
+
+    header { 
+        /* header erklärt sich selbst */
+     
+      background-color: cornflowerblue;
+
+      box-shadow: -webkit-box-shadow; -1px 6px 13px -4px #000000; 
+      box-shadow: -1px 6px 13px -4px #000000;;
+      height: 100px;
+      /* die werte für den schatten am banner
+       mit einem css shadow generator */
+      display: flex;
+      justify-content:center;
+      align-items:;
+/* flexbox= um alles richtig zu positionieren
+ display-flex  wo ist er überhaurt
+justify-content: = um auf der x achse zu verschieben
+und nur innerhalb der flexbox
+allign-item um y achse zu verschieben */
+
+    }
+
+  
+    header a {
+        /* header + a 2 selektoren verbunden
+         um nur den header anzusprechen */
+      margin-right: 100px;  
+      color: black;
+      text-decoration: none;
+      margin-top: 40px;
+    }
+/*  */
+
+    header a:hover {
+        /* hover effekt drüber fahren
+        mit farblicher änderungen */
+      color: lightcoral;
+    }
+
+    .ersterContainer {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      
+    }
+    .ersterContainer h1{
+      background-color: #2E8B57;
+      color:  #2E8B57;
+      text-decoration: none;
+      padding: 10px;
+      border: 1px solid cornflowerblue;
+
+      .p
+    /* padding = innerer abstand 
+border = grenze
+solid = was wohl ? 
+dotted = gepunktete grenze 
+dashed= linien mit abstand als rand 
+margin = abstand zwischen elementen */ */
+    }
+    .ersterContainer h1:hover{
+        /* hover wieder für ein effekt */
+      color:white ;
+    }
+    .playlist-alice{
+      position: absolute;
+      width: 300px; 
+      height: 300px;
+      animation: dance 8s infinite alternate
+      /* google
+      animation = animation */
+    }
+     .playlist-queen{
+      position:absolute;
+      width: 300px; 
+      height: 300px;
+      animation: dance 5s infinite alternate
+
+    }
+     .playlist-gaga{
+      position:absolute;
+      width: 300px; 
+      height: 300px;
+      animation: dance 6s infinite alternate
+
+     }
+    #playlist-alice{
+      animation-delay: 0;
+      top: 120px);
+      left:h - 120px;
+    }
+    #playlist-queen{
+      animation-delay: 2;
+      top: 150px);
+      left:h - 150px);
+    }
+    #playlist-gaga{
+      animation-delay: 4;
+      top: calc(100vh - 320px);
+      left:cal;
+    }
+    
+    @keyframes dance {
+      0% {
+        top: 0;
+        left: 0;
+/* tanz befehl */
+
+      }
+      100% {
+        top: calc(100vh - 320px);
+        left: calc(100vw - 320px);
+      /* }die werte um ihn tanzen zu lassen */
+    }
+  
+   
+      
+
+    
+
+  
